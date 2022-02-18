@@ -12,12 +12,64 @@ header{
     color: white;
 }
 
+.block-content{
+    width: 100%;
+    border-radius: 20px;
+    padding: 25px;
+}
+
 /* UTILITY */
 
-.flex-container{
+.container{
     width: 80%;
     margin: auto;
+}
+
+.und-line{
+    text-decoration: underline;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+/* HEADER */
+
+.header-flex{
     display: flex;
     justify-content: space-between;
+}
+
+/* DEMO APP */
+
+.demo-flex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin: 50px 0px;
+}
+
+.demo{
+    background-color: #b9dbfe;
+}
+
+.clean-code{
+    background-color: #caf0db;
+    text-align: center;
+}
+
+.web-design{
+    background-color: #fed2d1;
+    text-align: center;
+}
+
+.development{
+    background-color: #ffe7c3;
+    text-align: center;
+}
+
+.branding{
+    background-color: #d5d4f4;
+    text-align: center;
 }
 
