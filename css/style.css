@@ -18,6 +18,14 @@ header{
     padding: 25px;
 }
 
+.more-btn{
+    background-color: #9692e6;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
 /* UTILITY */
 
 .container{
@@ -31,6 +39,10 @@ header{
 
 .txt-center{
     text-align: center;
+}
+
+.font-w600{
+    font-weight: 600;
 }
 
 /* HEADER */
@@ -120,3 +132,18 @@ header{
 }
 
 /* BENEFIT */
+
+.benefit-flex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 50px 0px;
+}
+
+.benefit-block{
+    background-color: white;
+}
+
+.benefit-block > *{
+    margin-bottom: 30px;
+}
