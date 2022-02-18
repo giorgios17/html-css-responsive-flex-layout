@@ -73,3 +73,19 @@ header{
     text-align: center;
 }
 
+/* STRATEGIC PLAN */
+
+.violet-bg{
+    background-color: #9692e6;
+}
+
+.strategicplan-flex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 50px 0px;
+}
+
+.app-development{
+    background-color: white;
+}
