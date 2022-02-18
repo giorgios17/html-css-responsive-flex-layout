@@ -1,5 +1,23 @@
+/* GENERIC */
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+header{
+    background-color: #0084fd;
+    padding: 20px 0px;
+    color: white;
+}
+
+/* UTILITY */
+
+.flex-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
