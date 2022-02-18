@@ -18,13 +18,12 @@ header{
     padding: 25px;
 }
 
-.more-btn{
-    background-color: #9692e6;
-    padding: 10px 40px;
-    color: white;
-    border-radius: 20px;
-    text-decoration: none;
+.flex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
 }
+
 
 /* UTILITY */
 
@@ -43,6 +42,10 @@ header{
 
 .font-w600{
     font-weight: 600;
+}
+
+.m-btm20{
+    margin-bottom: 20px;
 }
 
 /* HEADER */
@@ -147,3 +150,81 @@ header{
 .benefit-block > *{
     margin-bottom: 30px;
 }
+
+.more-btn{
+    background-color: #9692e6;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* ABOUT US */
+
+.aboutus-flex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 50px 0px;
+}
+
+#aboutpic{
+    width: 150px;
+    border-radius: 50%;
+    filter: invert(1);
+}
+
+.linkedin-btn{
+    background-color: #9692e6;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+/* get started */
+
+.get-started{
+    background-color: #9692e6;
+    padding: 50px 0px;
+}
+
+.get-started  .container > *{
+    margin-bottom: 30px;
+}
+
+.credits{
+    background-color: #333333;
+}
+
+.get-started-btn{
+    color: #9692e6;
+    background-color: white;
+    padding: 20px 100px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+ /* credits */
+
+.credits{
+    color: white;
+    padding: 50px 0px;
+}
+
+.credits p{
+    margin-bottom: 70px;
+}
+
+.credits a{
+    color: #9692e6;
+    font-size: 0.8rem;
+}
+
