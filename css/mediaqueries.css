@@ -44,7 +44,27 @@
 
     .aboutus-flex .flex{
         width: 40%;
+    }
+
 }
 
-   
+/* SCREEN MIN WIDTH 1920 */
+
+@media  screen and (min-width: 1920px) {
+
+    .container{
+        width: 60%;
+    }
+
+    .strategicplan-flex{
+        flex-direction: row;
+
+    }
+
+    .benefit-block{
+        width: calc(100% / 3 - 20px);
+    }
+
+
+    
 }

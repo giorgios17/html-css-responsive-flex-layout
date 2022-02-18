@@ -113,6 +113,9 @@ body{
     background-color: white;
 }
 
+#plan-img{
+    align-self: center;
+}
 
 /* TESTIMONIALS */
 
