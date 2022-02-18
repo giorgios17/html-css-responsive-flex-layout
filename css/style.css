@@ -89,3 +89,34 @@ header{
 .app-development{
     background-color: white;
 }
+
+
+/* TESTIMONIALS */
+
+.testimonial-flex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 50px 0px;
+}
+
+.nat{
+    background-color: #ffbfbf;
+}
+
+.celia{
+    background-color: #feddaa;
+}
+
+.bob{
+    background-color: #b2e9ca;
+}
+
+.nat img,
+.celia img,
+.bob img{
+    border-radius: 50%;
+    width: 150px;
+}
+
+/* BENEFIT */
