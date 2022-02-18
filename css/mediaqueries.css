@@ -4,7 +4,47 @@
 
     .demo-flex{
         flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 20px;
     }
+
+    .demo{
+        width: calc(70% - 20px);
+    }
+
+    .clean-code{
+        width: 30%;
+    }
+
+    .web-design,
+    .development,
+    .branding{
+        width: calc(100% / 3 - 14px);
+    }
+
+    .benefit-flex{
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 20px;
+    }
+
+    .benefit-block{
+        width: calc(100% / 2 - 20px);
+    }
+
+    .aboutus-flex{
+        flex-direction: row;
+        justify-content: space-between;
+        column-gap: 20px;
+    }
+
+    #aboutus-txt{
+        width: 60%;
+    }
+
+    .aboutus-flex .flex{
+        width: 40%;
+}
 
    
 }
