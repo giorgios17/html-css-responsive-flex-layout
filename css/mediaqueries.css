@@ -1,0 +1,11 @@
+/* SCREEN MIN WIDTH 837 */
+
+@media screen and (min-width: 837px) {
+
+    .demo-flex{
+        flex-direction: row;
+    }
+
+
+    
+}

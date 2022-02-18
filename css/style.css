@@ -24,6 +24,10 @@ header{
     row-gap: 20px;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 /* UTILITY */
 
